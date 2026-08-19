@@ -115,7 +115,7 @@ export function ToolRunner({ tool, title, description, icon, fields, sample, cta
                     onChange={(e) => set(f.name, e.target.value)}
                   />
                 ) : f.type === "select" ? (
-                  <Select value={values[f.name]} onValueChange={(v) => set(f.name, v)}>
+                  <Select value={values[f.name] ?? ""} onValueChange={(v) => set(f.name, v)}>
                     <SelectTrigger id={f.name}>
                       <SelectValue />
                     </SelectTrigger>
