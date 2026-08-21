@@ -20,6 +20,7 @@ const NAV = [
   { to: "/planner", label: "Task Planner", icon: CalendarCheck },
   { to: "/research", label: "Career Research", icon: Compass },
   { to: "/chat", label: "Ask the Assistant", icon: MessagesSquare },
+  { to: "/portfolio", label: "My Portfolio", icon: UserRound },
 ] as const;
 
 function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
