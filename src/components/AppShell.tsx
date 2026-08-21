@@ -9,6 +9,7 @@ import {
   MessagesSquare,
   Menu,
   X,
+  UserRound,
   Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
